@@ -32,11 +32,6 @@ const Dashboard = () => {
       >
         Close Budget
       </button>
-      {searchParams.get("budget") === "true" && (
-        <div className="flex items-center gap-2">
-          <p className="text-sm">Budget: {searchParams.get("budget")}</p>
-        </div>
-      )}
     </div>
   );
 };
