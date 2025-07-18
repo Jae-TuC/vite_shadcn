@@ -35,6 +35,7 @@ const Dashboard = () => {
       {searchParams.get("budget") === "true" && (
         <div className="flex items-center gap-2">
           <p className="text-sm">Budget: {searchParams.get("budget")}</p>
+          <p>hi checkout git</p>
         </div>
       )}
     </div>
