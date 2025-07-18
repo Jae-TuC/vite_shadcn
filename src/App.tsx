@@ -22,6 +22,22 @@ function App() {
             <ChevronsLeftIcon className="size-4" />
             cancel
           </button>
+          <div className="flex flex-col gap-4">
+            <h1 className="text-2xl font-bold">Add Budget</h1>
+            <p className="text-sm text-gray-500">
+              Add a new budget to your account.
+            </p>
+            <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2">
+                <label htmlFor="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  className="input border-none placeholder:text-gray-500 focus:ring-0"
+                />
+              </div>
+            </div>
+          </div>
         </main>
       </SidebarProvider>
     );
